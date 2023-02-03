@@ -8,7 +8,7 @@
 }
 
 body{
-    background:url(1.jpg);
+    background:url(./1.jpg);
     background-repeat: no-repeat;
     background-size: 1600px 900px;
 }
@@ -115,13 +115,13 @@ body{
 
 @media screen and (max-width:673px){
     body{
-        background-size:673px 910px;
+        background-size:673px 900px;
     }
 }
 
 @media screen and (max-width:645px){
-        .text{
-        font-size: 15px;
+    .text{
+        font-size: 20px;
     }
     .info{
         margin: 0;
@@ -129,14 +129,10 @@ body{
         text-align: left;
         padding-left: 10px;
     }
-
-    .item1{
-        width: 150px;
-    }
     .item{
         margin: 0;
-        font-size: 15px;
-        padding-left: 15px;
+        font-size: 20px;
+        padding-left: 20px;
         padding-top: 30px;
     }
     .list{
@@ -151,34 +147,26 @@ body{
     }
 }
 
-@media screen and (max-width:577px){
+@media screen and (max-width:597px){
+    body{
+        background-image: url(/img/2.jpg);
+        background-size: auto ;
+    }
+    .info{
+        margin: 0;
+        padding-top:250px;
+        text-align: left;
+        padding-left: 10px;
+    }
     .text{
-    font-size: 15px;
-}
-.info{
-    margin: 0;
-    padding-top:250px;
-    text-align: left;
-    padding-left: 10px;
+        color: white;
+    }
+    .item{
+        margin: 0;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-top: 30px;
+        color: white;
+    }
 }
 
-.item1{
-    width: 150px;
-}
-.item{
-    margin: 0;
-    font-size: 15px;
-    padding-left: 15px;
-    padding-top: 30px;
-}
-.list{
-    margin-bottom: 70px;
-    padding-left: 250px;
-}
-.item3{
-    grid-row: 3/4;
-}
-.item2{
-    display: none;
-}
-}
